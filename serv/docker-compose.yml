@@ -1,0 +1,19 @@
+version: "2"
+services:
+  service1:
+    build: service1
+    ports:
+      - "8080:8080"
+    networks:
+      app_subnet:
+        ipv4_address: 172.16.1.4
+  service2:
+    build: service2
+    ports:
+      - "9000:8080"
+    networks:
+      app_subnet:
+        ipv4_address: 172.16.1.5  
+networks:
+      app_subnet:
+        external: true
