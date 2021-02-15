@@ -6,14 +6,16 @@ docker network create --gateway 172.16.1.1 --subnet 172.16.1.0/24 app_subnet
 
 docker-compose up --detach
 
-echo "\n******************************************"
-echo "Service 1 output:\n"
+echo
+echo "******************************************"
+echo "Service 1 output: "
 
 curl localhost:8080
 
-echo "\n******************************************"
+echo 
+echo "******************************************"
 
-echo "Service 2 output:\n"
+echo "Service 2 output:"
 
 curl localhost:9000
 

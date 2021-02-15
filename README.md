@@ -1,11 +1,12 @@
 # microservices
+
 AVL Project
 
-Requriments :
+## Requriments :
 
 install docker, docker-compose, curl
 
-Usage: 
+## Usage: 
 
 1. Move inside serv folder
 
@@ -16,9 +17,7 @@ Usage:
 4. To delete everything created, run from terminal: $./stop.h
 
 
-
-
-Fixes/Other comments 
+##Fixes/Other comments 
 
 - added in every file
 

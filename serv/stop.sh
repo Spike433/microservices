@@ -6,4 +6,6 @@ docker network rm app_subnet
 
 docker rm $(docker ps -a -q)
 
+docker rmi -f serv_service2:latest serv_service1:latest
+
 
