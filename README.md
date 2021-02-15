@@ -17,7 +17,7 @@ install docker, docker-compose, curl
 4. To delete everything created, run from terminal: $./stop.h
 
 
-##Fixes/Other comments 
+## Fixes/Other comments 
 
 - added in every file
 
