@@ -4,7 +4,10 @@ AVL Project
 
 ## Requriments :
 
-install docker, docker-compose, curl
+#### Install
+
+ - docker
+ - docker-compose
 
 ## Usage: 
 
