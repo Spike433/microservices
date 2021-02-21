@@ -8,6 +8,7 @@ AVL Project
 
  - docker
  - docker-compose
+ - python 3.x
 
 ## Usage: 
 
