@@ -10,12 +10,17 @@ install docker, docker-compose, curl
 
 1. Move inside serv folder
 
-2. Run "start.h" script from terminal : $ ./start.h
+2. Run "start.h" script from terminal :
+ ```sh
+ $ ./start.h
+ ```
 
 3. Script will create app_subnet network, run containers from images and show hash for website that is already enterd 
 
-4. To delete everything created, run from terminal: $./stop.h
-
+4. To delete everything created, run from terminal: 
+```sh
+$ ./stop.h
+```
 
 ## Fixes/Other comments 
 
